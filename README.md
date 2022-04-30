@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://christianark.github.io/easybank-landing-page/)
+- Solution URL: [Preview my solution](https://christianark.github.io/easybank-landing-page/)
 
 ## My process
 

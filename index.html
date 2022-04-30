@@ -20,7 +20,7 @@
       <span class="mobile-btn hamburger">
         <img src="./images/icon-hamburger.svg" alt="menu">
       </span>
-      <span class="mobile-btn close">
+      <span class="mobile-btn close d-none">
         <img src="./images/icon-close.svg" alt="close">
       </span>
       <nav class="mobile-menu">
@@ -212,8 +212,9 @@
     nav.classList.add("mobile-menu-in");
     overlay.style.opacity = "1";
     // overlay.style.display = "block"
-    ham.style.display = "none";
-    close.style.display = "block";
+    // ham.style.display = "none";
+    close.classList.remove('d-none');
+    ham.classList.add('d-none');
     overlay.style.zIndex = "10";
   })
 
@@ -222,8 +223,9 @@
     nav.classList.remove("mobile-menu-in");
     overlay.style.opacity = "0";
     // overlay.style.display = "none";
-    ham.style.display = "block";
-    close.style.display = "none";
+    // ham.style.display = "block";
+    close.classList.add('d-none');
+    ham.classList.remove('d-none');
   })
 </script>
 </body>
